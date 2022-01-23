@@ -16,7 +16,7 @@
     "url": "https://github.com/pro-collection/espm/issues"
   },
   "homepage": "https://github.com/pro-collection/espm#readme",
-  "devDependencies": {
-
+  "dependencies": {
+    "electron": "^16.0.7"
   }
 }
