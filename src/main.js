@@ -5,8 +5,12 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    // width 和 height 将设置为 web 页面的尺寸
+    useContentSize: true,
+    // 窗口在屏幕居中
+    center:true,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
+      // preload: path.join(__dirname, 'preload.js'),
     },
   });
 
